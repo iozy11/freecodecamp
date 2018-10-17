@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+#border {
+  background-color: #5282FF;
+  padding: 10px;
+  width: 100%;
+}
+
+#BIGBOX {
+  background-color: #180094;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  
+}
+
+h2 {
+    font-family: "VT323", monospace;
+    color: #5282FF;
+}
+
+.linkBox{
+  background-color: #5282FF;
+  color: #180094;
+  font-family: "VT323", monospace;
+}
+
+a {
+  color: #180094;
+}
+
+a:hover {
+  color: white;
+}
+
+.textBox {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
+}
+
+.imgBox {
+  border: 5px #5282FF dotted;
+  display: table;
+  margin: 0 auto;
+}
+
+.lightBox {
+  background-color: 5282FF;
+  font-family: "VT323", monospace;
+  color: #180094;
+}
+
+.darkBox {
+  background-color: #180094;
+  font-family: "VT323", monospace;
+  color: #5282FF;
+  text-align: right;
+}
