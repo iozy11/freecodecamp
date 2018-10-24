@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<body>
+  <!--Title, sits above survey card-->
+  <h1 id='title'>Candev Sign-up</h1>
+  <p id='description'>Tell us about your team</p>
+  <!--Card on which survey will sit-->
+  <div id='survey-card'>
+   <form id='survey-form'>
+   <!--Text inputs-->
+      <label for='name' id='name-label'>Name</label><br>
+      <input type='text' id='name' placeholder='Your name' required/><br>
+      <label for='email' id='email-label'>e-mail</label><br>
+     <input type='email' id='email' placeholder='e-mail' required/><br>
+     <label for='number' id='number-label'>Group Size</label><br>
+      <input type='number' id='number' min='1' max='4' placeholder='Size of your group, 1-4' required/><br>
+     <!--Dropdown Menu-->
+     <label for='dropdown'>Chose your topic</label><br>
+     <select id='dropdown'>
+       <option value=''>Chose your prefered challenge</option>
+       <option value='Data Visualization'>Data Visualization</option>
+       <option value='Web Development'>Web Development</option>
+       <option value='Web Scraping'>Web Scraping</option>
+       <option value='Analytics'>Analytics</option>
+       <option value='Machine Learning'>Machine Learning</option>
+     </select><br>
+     <!--Radio buttons-->
+     <label for='institute'>Which institution are you representing</label><br>
+     <input type='radio' id='uOttawa' name='institute' value='uOttawa' checked /><label for='uOttawa'>uOttawa</label>
+     <input type='radio' id='Carleton' name='institute' value='Carelton' ><label for='Carleton'>Carleton</label>
+     <input type='radio' id='StatsCan' name='institute' value='StatsCan' ><label for='StatsCan'>StatsCan</label>
+     <br>
+     <!--Checklist buttons-->
+     <label for='classes'>Which disciplines are you familiar with:</label><br>
+     <input type='checkbox' id='Design' name='classes' value='design' /><label for='Design'>Design</label><br>
+     <input type='checkbox' id='algorithms' name='classes' value='algorithms' /><label for='algorithms'>Algorithms and Data Structures</label><br>
+     <input type='checkbox' id='stats' name='classes' value='stats' /><label for='stats'>Statistics and Probability</label><br>
+     <!--Comments/textarea-->
+     <label for='comments'>Comments</label><br>
+     <textarea id='comments' name='comments' maxlength='500' rows='4' columns='500' wrap='soft'></textarea>
+     <!--Submit button-->
+     <input type='submit' id='submit' name='submit' value='Submit'>
+    </form>
+  </div>
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
