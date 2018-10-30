@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Pridi|Source+Code+Pro');
+
+body {
+  margin: auto;
+}
+
+#pageWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar {
+  background-color: #eee;
+  
+}
+
+.nav-link{
+  font-family: pridi;
+  color: black;
+  text-decoration: none;
+}
+
+header{
+  font-size: 2em;
+  color: #21759E;
+}
+
+.main-section {
+  font-size: 1.2em;
+  font-family: pridi;
+  
+}
+
+code {
+  font-family: Audiowide;
+  border-radius: 5px;
+  background-color: #8D8D8E;
+  padding: 0 2;
+}
+
+p {
+  width: 90vw;
+}
+
+@media screen and (min-width: 768px){
+  
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+  }
+}

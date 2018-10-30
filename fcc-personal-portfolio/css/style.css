@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Economica');
+
+#navbar {
+  background-color: #FF7F00;
+  text-align: end;
+  position: fixed;
+  width: 100%;
+}
+
+.navBtn {
+  padding-right: 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+h1 {
+  margin: auto;
+  padding: 5px;
+}
+
+#welcome-section {
+  font-family: comfortaa;
+  text-align: center;
+  background-color: #0092B2;
+  height: 100vh;
+}
+
+body {
+  margin: auto;
+}
+
+#projects {
+  font-family: economica;
+  display: flex;
+  background-color: #323233;
+  color: white;
+  justify-content: space-around;
+}
+
+.project-title {
+  margin: 10px;
+  border-radius: 3px;
+  border: solid;
+  height: 100%;
+}
+
+a {
+  color: white;
+}
+
+#profileLink {
+  background-color: #323233;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+  #projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
